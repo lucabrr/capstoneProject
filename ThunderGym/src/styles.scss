@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@mixin mainContainerMixin {
+  background-image:url("../../../assets/gym3.jpg");
+  background-size: cover;
+  height: calc(100vh - 58px - 57px);
+}
+:root{
+
+  --thunder-color : rgb(239, 229, 28);
+  --grey: rgba(255, 255, 255, 0.347);
+  --celestino: rgb(180, 212, 238)
+}

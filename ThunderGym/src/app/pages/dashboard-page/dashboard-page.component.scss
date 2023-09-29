@@ -1,0 +1,55 @@
+
+a{
+  color:whitesmoke;
+  text-decoration: none;
+
+}
+.mainContainer{
+  background-image:url("../../../assets/gym3.jpg");
+  background-size: cover;
+  height: calc(100vh - 58px - 57px);
+  color: whitesmoke !important;
+  .container{
+    .row{
+      .col,.col-6{
+        .colv1{
+          margin-right: 5px;
+          width: 300px;
+          background-color: rgb(10, 10, 10);
+          border-radius: 5px;
+          display: flex;
+          flex-direction:  column;
+          justify-content: center;
+          padding: 10px;
+          .titleContainer{
+            border-bottom: 1px solid var(--thunder-color);
+            font-size: 1.3em;
+          }
+          .numberContainer{
+            font-size: 1.9em;
+          }
+        }
+        .colv2{
+          width: auto;
+          height: auto;
+          padding: 15px;
+          .titleContainer{
+               border-bottom: 1px solid rgba(128, 128, 128, 0.31);
+          }
+        }
+      }
+
+    }
+
+
+  }
+}
+
+@media screen and (max-width: 770px){
+  .firstRow{
+    display: none;
+  }
+}
+a:hover{
+color: var(--thunder-color);
+}

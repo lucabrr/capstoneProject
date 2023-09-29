@@ -1,0 +1,51 @@
+.mainContainer{
+  background-image:url("../../../assets/gym3.jpg");
+  height: calc(100vh - 58px - 57px);
+  background-size: cover;
+  p{
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+ form{
+  border: 1px solid var(--grey);
+  border-radius: 20px;
+  height: 400px;
+  padding: 25px;
+  .loginContainer{
+    button{
+      margin-top: 90px;
+    }
+    a{
+      color: grey;
+    }
+    a:hover{
+      color: whitesmoke;
+    }
+
+  }
+
+  .inputContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  i{
+    color: gray;
+    font-size: 30px;
+    margin-right: 10px;
+
+  }
+  input{
+    border: 0px;
+    background-color: rgba(128, 128, 128, 0);
+    border-bottom: 1px solid var(--thunder-color);
+    color: whitesmoke;
+  }
+ }
+}
+
+input:focus{
+ outline: none;
+}

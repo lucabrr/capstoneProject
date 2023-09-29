@@ -1,0 +1,54 @@
+@import "src/styles.scss";
+
+
+.mainContainer{
+  @include mainContainerMixin;
+  color: whitesmoke;
+  h2{
+    margin-bottom: 50px;
+  }
+  form{
+    border: 1px solid var(--grey) ;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.522);
+  }
+  .inputContainer{
+    margin-bottom: 30px;
+
+
+  label{
+    margin-right: 10px;
+    font-size: 1.3em;
+  }
+  input{
+    background: none;
+    border: 0px;
+    border-bottom: 1px solid var(--thunder-color);
+    color: whitesmoke;
+
+  }
+  }
+
+}
+input[type="date"] {
+  -webkit-text-fill-color: whitesmoke;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+input:focus{
+  outline: none;
+ }
+ input:invalid{
+  border-bottom: 1px solid rgb(115, 30, 30) !important;
+ }
+ @media screen and  (max-width: 770px){
+  .inputContainer{
+    flex-direction: column !important;
+    input{
+      margin-bottom: 30px;
+    }
+  }
+ }
+
